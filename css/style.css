@@ -1,0 +1,30 @@
+@import "utilities.css";
+
+:root {
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternaary: #898989;
+  --light: #f2f2f2;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --webkit-font-smoothing: antialiased;
+}
+header {
+  background-color: var(--dark);
+  height: 500px;
+}
+
+.container {
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header nav .left a {
+  text-decoration: none;
+  color: var(--pure);
+}
