@@ -2,10 +2,32 @@
   display: flex;
 }
 
-.items-center{
-    align-items: center;
+.items-center {
+  align-items: center;
 }
 
-.justify-between{
-    justify-content: space-between;
+.justify-between {
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
+  transition: all 0.3s ease;
 }
